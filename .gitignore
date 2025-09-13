@@ -3,4 +3,5 @@ __pycache__/
 data/*.parquet
 data/*.pkl
 screenshots/
-.env
+.envdata/metadata.csv
+data/metadata.csv

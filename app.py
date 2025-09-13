@@ -45,6 +45,7 @@ st.markdown("""
 # App title
 st.markdown('<h1 class="main-header">CORD-19 Research Dashboard</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subheader">A professional exploration of COVID-19 academic literature</p>', unsafe_allow_html=True)
+st.markdown('<p class="subheader">EmmiDev built this!</p>', unsafe_allow_html=True)
 
 # Sidebar with filters and info
 with st.sidebar:

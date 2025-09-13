@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 @st.cache_data
-def load_data(path='data/metadata.csv'):
+def load_data(path='data/metadata_sample.csv'):
     """Load the CORD-19 metadata with caching for performance"""
     try:
         df = pd.read_csv(path, low_memory=False)

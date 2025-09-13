@@ -52,7 +52,7 @@ with st.sidebar:
     
     # Data loading with spinner
     with st.spinner("Loading dataset..."):
-        df_raw = load_data('data/metadata.csv')
+        df_raw = load_data('data/metadata_sample.csv')
     
     if not df_raw.empty:
         with st.spinner("Cleaning data..."):
